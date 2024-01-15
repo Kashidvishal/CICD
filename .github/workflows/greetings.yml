@@ -2,7 +2,7 @@ name: Greetings
 
 on:
   push:
-    branches: ["master"]
+    branches: ["mastervishal"]
 jobs:
   myfirstjob:
     runs-on: ubuntu-latest
