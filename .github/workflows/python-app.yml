@@ -19,7 +19,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install pytest
         pip install -r requirements.txt
-        touch /home/runner/work/CICD/CICD/vishal.txt
+        touch /home/runner/work/CICD/cicd/vishal.txt
     - name: Test with pytest
       run: |
         pytest test.py --doctest-modules --junitxml=junit/test-results.xml
